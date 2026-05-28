@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Ray Burg",
+    "slug": "Rayburgappliance",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "scheme": "rayburgappliance",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rayburgappliance.dispatchapp"
+    },
+    "android": {
+      "package": "com.rayburgappliance.dispatchapp",
+      "jsEngine": "hermes",
+      "enableProguardInReleaseBuilds": true,
+      "enableShrinkResourcesInReleaseBuilds": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/appicon.png",
+        "backgroundColor": "#137a7f"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/logo.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#137a7f"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "55051540-42e8-4bc7-87c5-44bf7fc871fb"
+      }
+    },
+    "owner": "naveendev1988"
+  }
+}
