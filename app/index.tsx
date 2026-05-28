@@ -228,7 +228,7 @@ export default function HomeScreen() {
       return n;
     });
 
-  // ── Submit ────────────────────────────────────────────────────────────────
+  // ── Submit ────────────────────────────────────────────────────────────────   newUser123
   const handleSubmit = async () => {
     const e: Record<string, string> = {};
 
@@ -296,24 +296,6 @@ export default function HomeScreen() {
         await saveAuth(data.token, data.email);
         router.replace("/dispatch");
       } else {
-        // try {
-        //   if (mode === "login") {
-        //     const res = await fetch(`${BACKEND_URL}/auth/login`, {
-        //       method: "POST",
-        //       headers: { "Content-Type": "application/json" },
-        //       body: JSON.stringify({
-        //         username: username.trim().toLowerCase(),
-        //         password,
-        //       }),
-        //     });
-        //     const data = await res.json();
-        //     if (!res.ok) {
-        //       setServerError(data.error || "Something went wrong.");
-        //       return;
-        //     }
-        //     await saveAuth(data.token, data.email);
-        //     router.replace("/dispatch");
-        //   } else {
         const res = await fetch(`${BACKEND_URL}/auth/register`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },

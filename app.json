@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Ray Burg",
-    "slug": "Rayburgappliance",
+    "slug": "rayburg",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/logo.png",
@@ -45,9 +45,9 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "55051540-42e8-4bc7-87c5-44bf7fc871fb"
+        "projectId": "d97057b6-7c26-498f-89ed-f9291dfaa834"
       }
     },
-    "owner": "naveendev1988"
+    "owner": "devtechexpo01"
   }
 }
