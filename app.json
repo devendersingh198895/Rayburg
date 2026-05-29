@@ -7,7 +7,7 @@
     "icon": "./assets/images/logo.png",
     "scheme": "rayburgappliance",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.rayburgappliance.dispatchapp"
@@ -15,13 +15,13 @@
     "android": {
       "package": "com.rayburgappliance.dispatchapp",
       "jsEngine": "hermes",
-      "enableProguardInReleaseBuilds": true,
-      "enableShrinkResourcesInReleaseBuilds": true,
+      "enableProguardInReleaseBuilds": false,
+      "enableShrinkResourcesInReleaseBuilds": false,
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/appicon.png",
         "backgroundColor": "#137a7f"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": false
     },
     "web": {
       "output": "static",
